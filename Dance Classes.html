@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<link href="Main Style.css" rel="stylesheet" type="text/css" />
+<script src="Dance Classes JS.js"></script>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<navigationBar class="navbar">
+    <p><a href="Homepage.html" style="color:white; text-decoration: none;">Homepage</a></p>
+    <p><a href="Dance Classes.html" style="color:white; text-decoration: none;">Dance Classes</a></p>
+    <p><a href="Events.html" style="color:white; text-decoration: none;">Events</a></p>
+    <p><a href="OurSpace.html" style="color:white; text-decoration: none;">Our Space & Instructors</a></p>
+</navigationBar>
+</head>
+
+<body>
+<center>
+
+<p style="font-size:larger; font-weight: bold;">DANCE CLASSES</p>
+<Intro><p>
+  At Konfluenze, we provide a safe space for our dancers to communicate and exchange. 
+  We provide classes of different genre, hoping to expand Singapore's street dance scene.
+</p></Intro>
+
+<Schedule>
+  <label for "datetime">Choose your date:</label>
+  <input type="date" id="dateInput" placeholder="Choose Your Date" name="datetime">
+  <button type="button" onclick="updateContent()">Confirm</button>
+
+  <p>CLASSES AVAILABLE TODAY</p>
+  <Classes class="schedule">
+    <a href="Booking.html?box=box1" style="color:white; text-decoration: none;"><p id="boxContent1" class="DanceClass1">Popping<br>Mr Wiggles<br>8pm-9pm</p></a>
+    <a href="Booking.html?box=box2" style="color:white; text-decoration: none;"><p id="boxContent2" class="DanceClass2">Hip Hop<br>Jabbawockeez<br>6pm-7pm</p></a>
+    <a href="Booking.html?box=box3" style="color:white; text-decoration: none;"><p id="boxContent3" class="DanceClass3">Locking<br>Hilty & Bosch<br>3pm-4pm</p></a>
+  </Classes>
