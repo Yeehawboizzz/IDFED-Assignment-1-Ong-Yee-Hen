@@ -1,0 +1,591 @@
+
+body {
+    color: white;
+    background-color: gray;
+    background-image: url(https://i.guim.co.uk/img/media/915ac7532107bf40d36fb73de9eff73228fd0eee/0_147_6720_4032/master/6720.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=f7dba60b32ce0cf747483690e9150426),
+                      url(https://3.bp.blogspot.com/-2aLfIq5DixY/VGfQBh-edHI/AAAAAAAAgRk/IaO5slBes5w/s1600/streetdance-3d-13-31657-LST072862.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right top;
+    background-attachment: fixed, fixed;
+    background-size: 50% 100%, 50% 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*Homepage*/
+  .DanceClass
+  {
+    background-color: gray; 
+    background-image: url(https://www.helsinkitimes.fi/images/2023/08/red_bull.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .Event
+  {
+    background-color: gray; 
+    background-image: url(https://static.wikia.nocookie.net/dance/images/a/ab/Hiphopdance.jpg/revision/latest?cb=20130112111325);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .AboutUs
+  {
+    background-color: black;
+    width: 300px;
+    padding: 50px;
+    margin: 50px;
+  }
+  
+  .Moto
+  {
+    background-color: darkgray;
+    width: 400px;
+    padding: 40px;
+    margin: 50px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkred;
+    width: 500px;
+  }
+  
+  .content > p {
+    background-color: gray;
+    margin: 25px;
+    padding: 30px;
+    font-size: 15px;
+  }
+  
+  /*Dance Classes*/
+
+  .DanceClass1
+  {
+    background-color: gray; 
+    background-image: url(https://pbs.twimg.com/profile_images/1696696026/wigsee_400x400.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .DanceClass2
+  {
+    background-color: gray; 
+    background-image: url(https://media.lasvegasmagazine.com/media/img/photos/2019/01/23/Jabbawockeez_LD_t1024.jpg?b3f067808e872500b33dd7ef4ee517933144b05a);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .DanceClass3
+  {
+    background-color: gray; 
+    background-image: url(https://yt3.googleusercontent.com/ytc/APkrFKZShC-kzWxgY7wkCmTnqF6p2HA6u6VZ6XVXYBFKhQ=s900-c-k-c0x00ffffff-no-rj);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .DanceClass4
+  {
+    background-color: gray; 
+    background-image: url(https://static.wikia.nocookie.net/kinjaz/images/8/81/18838968_1547432961942133_8878656879482741373_n.jpg/revision/latest?cb=20170820100315);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .DanceClass5
+  {
+    background-color: gray; 
+    background-image: url(https://m.media-amazon.com/images/M/MV5BODA2ZTQ0YjktOTQzMC00MGI5LThlMzgtMzM1NjE4N2JkNzlhXkEyXkFqcGdeQXVyMTI4NDEwOTQx._V1_.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .DanceClass6
+  {
+    background-color: gray; 
+    background-image: url(https://img.redbull.com/images/c_fill,g_auto,w_760,h_572/q_auto,f_auto/redbullcom/2018/03/22/cd8a59e9-eff2-4e7b-ad3e-899965952725/greenteck);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .DanceClass7
+  {
+    background-color: gray; 
+    background-image: url(https://yt3.googleusercontent.com/OHU3BnnOomggEtKG_oNwG1bEW_usgXB1tX2nBheh4aOvAJcP7tqjtCppIYjvX-extzce3jtu=s900-c-k-c0x00ffffff-no-rj);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .DanceClass8
+  {
+    background-color: gray; 
+    background-image: url(https://www.prodance.co.uk/Content/assets/large_artist_14_1129.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .DanceClass9
+  {
+    background-color: gray; 
+    background-image: url(https://pbs.twimg.com/profile_images/1138182257187803141/WeHTeVAq_400x400.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  
+  .schedule {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkred;
+    width: 700px;
+  }
+  
+  .schedule > p {
+    background-color: gray;
+    margin: 25px;
+    padding: 30px;
+    font-size: 15px;
+  }
+
+  /*Events*/
+  .photo23-1
+  {
+    background-color: gray; 
+    background-image: url(https://campstogo.com/images/1496183006425.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 150px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .photo23-2
+  {
+    background-color: gray; 
+    background-image: url(https://i.ytimg.com/vi/lAwqPWYN2UU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDBgOSv-vqCPVF_Zuz8sWJIB6K2Wg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 150px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .photo23-3
+  {
+    background-color: gray; 
+    background-image: url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2018/07/06/e49e17cb-6abc-4340-a997-f31ebcb6fe24/bc-one-camp-usa-greenteck);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 150px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .photo17-1
+  {
+    background-color: gray; 
+    background-image: url(https://www.themusicman.uk/wp-content/uploads/2021/03/Scream-Usher-_-Hilty-Bosch-Showcase-Locking-Popping-_-310XT-Films-_-URBAN-DANCE-CAMP-0-59-screenshot-min-e1615562082811.png);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 150px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .photo17-2
+  {
+    background-color: gray; 
+    background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1113037140621910016/pu/img/c5KkDHutvLao30bh.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 150px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .photo17-3
+  {
+    background-color: gray; 
+    background-image: url(https://static.wikia.nocookie.net/dance/images/a/ab/Hiphopdance.jpg/revision/latest?cb=20130112111325);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 150px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  
+  .year23 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkred;
+    width: 800px;
+  }
+  
+  .year23 > p {
+    background-color: gray;
+    margin: 25px;
+    padding: 30px;
+    font-size: 15px;
+  }
+
+  .year17 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkred;
+    width: 800px;
+  }
+  
+  .year17 > p {
+    background-color: gray;
+    margin: 25px;
+    padding: 30px;
+    font-size: 15px;
+  }
+  
+  /*OurSpace*/
+  .Instructor1
+  {
+    background-color: gray; 
+    background-image: url(https://pbs.twimg.com/profile_images/1696696026/wigsee_400x400.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .Instructor2
+  {
+    background-color: gray; 
+    background-image: url(https://media.lasvegasmagazine.com/media/img/photos/2019/01/23/Jabbawockeez_LD_t1024.jpg?b3f067808e872500b33dd7ef4ee517933144b05a);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+  
+  .Instructor3
+  {
+    background-color: gray; 
+    background-image: url(https://yt3.googleusercontent.com/ytc/APkrFKZShC-kzWxgY7wkCmTnqF6p2HA6u6VZ6XVXYBFKhQ=s900-c-k-c0x00ffffff-no-rj);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .Instructor4
+  {
+    background-color: gray; 
+    background-image: url(https://static.wikia.nocookie.net/kinjaz/images/8/81/18838968_1547432961942133_8878656879482741373_n.jpg/revision/latest?cb=20170820100315);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .Instructor5
+  {
+    background-color: gray; 
+    background-image: url(https://m.media-amazon.com/images/M/MV5BODA2ZTQ0YjktOTQzMC00MGI5LThlMzgtMzM1NjE4N2JkNzlhXkEyXkFqcGdeQXVyMTI4NDEwOTQx._V1_.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .Instructor6
+  {
+    background-color: gray; 
+    background-image: url(https://img.redbull.com/images/c_fill,g_auto,w_760,h_572/q_auto,f_auto/redbullcom/2018/03/22/cd8a59e9-eff2-4e7b-ad3e-899965952725/greenteck);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .Instructor7
+  {
+    background-color: gray; 
+    background-image: url(https://yt3.googleusercontent.com/OHU3BnnOomggEtKG_oNwG1bEW_usgXB1tX2nBheh4aOvAJcP7tqjtCppIYjvX-extzce3jtu=s900-c-k-c0x00ffffff-no-rj);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .Instructor8
+  {
+    background-color: gray; 
+    background-image: url(https://www.prodance.co.uk/Content/assets/large_artist_14_1129.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .Instructor9
+  {
+    background-color: gray; 
+    background-image: url(https://pbs.twimg.com/profile_images/1138182257187803141/WeHTeVAq_400x400.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+
+  .ourSpace
+  {
+    background-color: black;
+    width: 300px;
+    padding: 50px;
+    margin: 50px;
+  }
+  
+  
+  .Instructors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkred;
+    width: 800px;
+  }
+  
+  .Instructors > p {
+    background-color: gray;
+    margin: 25px;
+    padding: 30px;
+    font-size: 15px;
+  }
+
+  .top-row,
+  .middle-row,
+  .bottom-row {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+  }
+
+
+  /*All HTML*/
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .navbar > p {
+    background-color: darkred;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .footer {
+      position:relative;
+      left:0;
+      bottom:0;
+      width:100%;
+      height: 120px;
+      background-color: black;
+      text-align: center;
+  }
+  
+  /*Mobile View*/
+  @media (max-width: 768px) {
+    body{
+      font-size: large;
+      background-image: url(https://3.bp.blogspot.com/-2aLfIq5DixY/VGfQBh-edHI/AAAAAAAAgRk/IaO5slBes5w/s1600/streetdance-3d-13-31657-LST072862.jpg);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-attachment: fixed;
+      background-size: cover;
+      width:auto
+    }
+    /*Homepage*/
+    .content {
+      flex-direction: column;
+      width: 80%; 
+      align-items: center;
+    }
+  
+    .DanceClass,
+    .Event,
+    .AboutUs,
+    .Moto {
+      width: 50%;
+    }
+    
+    /*Dance Classes*/
+    .schedule {
+      flex-direction: column;
+      width: 80%; 
+      align-items: center;
+    }
+    .DanceClass1,
+    .DanceClass2,
+    .DanceClass3,
+    .DanceClass4,
+    .DanceClass5,
+    .DanceClass6,
+    .DanceClass7,
+    .DanceClass8,
+    .DanceClass9
+    {
+      background-position: center top;
+    }
+    .DanceClass9{
+      background-size: 80%;
+      background-position: center;
+    }
+
+    /*Events*/
+    .year23,
+    .year17 
+    {
+      flex-direction: column;
+      width: 80%; 
+      align-items: center;
+    }
+    .photo23-1,
+    .photo23-2,
+    .photo23-3,
+    .photo17-1,
+    .photo17-2,
+    .photo17-3
+    {
+      width:50%;
+    }
+
+    /*OurSpace*/
+    .Instructors {
+      flex-direction: column;
+      width: 80%; 
+      align-items: center;
+    }
+
+    .top-row,
+    .middle-row,
+    .bottom-row {
+      justify-content: center;
+      flex-direction: column;
+      display: flex;
+    }
+
+    .Instructor1,
+    .Instructor2,
+    .Instructor3,
+    .Instructor4,
+    .Instructor5,
+    .Instructor6,
+    .Instructor7,
+    .Instructor8,
+    .Instructor9
+    {
+      background-position: center top;
+    }
+    .ourSpace
+    {
+      width:50%;
+    }
+  }
