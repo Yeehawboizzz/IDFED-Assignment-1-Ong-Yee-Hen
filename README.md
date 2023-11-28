@@ -1,4 +1,6 @@
 # IDFED-Assignment-1-Ong-Yee-Hen
+My project is to create a website for aa fictional dance studio named Konfluenze Dance Studio.
+
 KONFLUENZE DANCE STUDIO
 Established in 2005, Konfluenze Dance Studio originated from a close-knit group of friends who shared a profound passion for street dance and its vibrant culture. Formed as an outcome of a co-curricular activity, we recognized the dearth of a robust street dance scene in Singapore during those early years. Undeterred, we seized every opportunity that came our way and, through battles, competitions, and showcases, evolved into a stronger and more expansive community.
 
@@ -9,7 +11,7 @@ At Konfluenze, we believe in the power of diversity and the fusion of experience
 Whether you are looking to learn, improve, or simply have fun, Konfluenze invites you to join our community. Together, we strive to cultivate and support the vibrant street dance culture in Singapore.
 
 
-DESIGN PROCESS
+# DESIGN PROCESS
 The primary objective of our website is to extend dance classes not only to seasoned dancers but also to those who may not have prior dance experience. Our mission is to broaden the exposure of street dance culture and actively contribute to its flourishing community. At Konfluenze, we welcome individuals of all ages who are keen on exploring the world of dance, creating an inclusive space for anyone with a passion for movement.
 
 Recognizing the initial lack of recognition for street dance within Singapore, our website has been strategically designed to bridge this gap. We have incorporated various dance-related elements, including captivating images from past events. These visual representations serve as a testament to our commitment, showcasing the energy, skill, and vibrancy that define the street dance culture. By providing a glimpse into our dynamic and engaging activities, we aim to instill trust, faith, and ultimately gain the recognition of the wider community.
@@ -28,3 +30,35 @@ A simplified purchase process allows seasoned dancers, who are clear about their
 All Users:
 
 The website serves as a comprehensive platform for both dancers and non-dancers to explore Konfluenze Dance Studio. Users, regardless of their dance background, can access information about the studio's history, past events, and the expertise of our instructors. Contact details are easily accessible, encouraging communication and fostering a sense of connection between the studio and its community. By offering a glimpse into our past events, the website aims to showcase the vibrancy and energy that defines Konfluenze Dance Studio, creating a welcoming space for all users. Through these tailored features, the website aims to cater to the diverse needs of both novice and experienced dancers, fostering inclusivity and providing a positive online experience for all users.
+
+
+# FEATURES
+The Javascript features are concentrated in the Dance Classes.html and Booking.html, where all the forms submission works.
+
+**Dance Classes.html**:
+
+Calendar:
+Allows users to select specific dates they wish to book classes. Dynamically updates the available classes based on the chosen date, providing a personalized and responsive experience.
+
+Chosen Class:
+Enables users to pick a class, initiating a smooth transition to the Booking.html page. Passes relevant details about the chosen class to Booking.html, ensuring a seamless continuation of the booking process.
+
+Membership Signup:
+Provides users with the option to sign up as a member directly from the Dance Classes page. Validates user input in the signup form and generates a promo code for first-timers. Offers a streamlined process for users to become members while incentivizing their initial engagement with a promotional offer.
+
+**Booking.html**:
+
+Display Chosen Class:
+Clearly displays the details of the dance class chosen by the user at the top of the Booking.html page, ensuring transparency and confirmation.
+
+Purchase Form Validation:
+Requires users to input necessary information, such as credit card number and email address, to successfully submit the form. Validates the completeness and accuracy of the provided information, ensuring a smooth and error-free transaction process.
+
+Promo Code:
+Integrates the use of promo codes, allowing users to redeem a free class. Discounts the class price from $15 to $0 when a valid promo code from the Membership Signup is applied, providing an incentive for users to engage with the membership program.
+
+# TECHNOLOGIES USED
+
+# TESTING
+
+# CREDITS
