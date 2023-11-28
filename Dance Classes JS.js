@@ -50,6 +50,56 @@ function updateContent() {
     document.getElementById('boxContent3').className = class3;
 }
 
-function submitForm(){
-    
+var messageType;
+
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('submitButton').addEventListener('click', function () {
+        var emailInput = document.getElementById('emailInput').value;
+        var passwordInput = document.getElementById('passInput').value;
+            
+        // Validate email format using a regular expression
+        var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+        
+        if (emailRegex.test(emailInput) && passwordRegex.test(passwordInput)) {
+            showMessage("Registered Successfully! Here's a promo code for your first class ever! CODE: KONZ1stTIME", ' success');
+            copyToClipboard();
+        } else if (emailInput.trim()===""||passwordInput.trim()===""){
+            showMessage('Please enter your information.', ' error');
+        } else {
+            showMessage('Invalid format. Please enter a valid email address or password.', ' error');
+        }
+    });
+
+    function showMessage(message, messageType) {
+        var messageBoxes = document.getElementsByClassName('confirmation');
+        var messageBox = messageBoxes[0];
+        messageBox.textContent = message;
+        messageBox.className = 'confirmation ' + messageType;
+        messageBox.style.display = 'block';
+
+        setTimeout(function () {
+            messageBox.style.display = 'none';
+        }, 50000); 
+    }
+});
+
+
+function copyToClipboard() {
+    var copyText = "KONZ1stTIME";
+
+    var tempInput = document.createElement("input");
+
+    tempInput.value = copyText;
+
+    document.body.appendChild(tempInput);
+
+    tempInput.select();
+    tempInput.setSelectionRange(0, 99999);
+
+    document.execCommand("copy");
+
+    document.body.removeChild(tempInput);
+
+    alert("Registered Successfully! Here's a First-Timer promo code for you! " + copyText + " Copied to clipboard");
 }

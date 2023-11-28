@@ -1,3 +1,4 @@
+
 function chooseClass() {
     const urlParams = new URLSearchParams(window.location.search);
     const boxParam = urlParams.get('box');
