@@ -1,5 +1,6 @@
 
-body {
+body 
+{
   color: white;
   background-color: gray;
   background-image: url(Images/Background1.jpg),
@@ -60,7 +61,8 @@ body {
   margin: 50px;
 }
 
-.content {
+.content 
+{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -68,7 +70,8 @@ body {
   width: 500px;
 }
 
-.content > p {
+.content > p 
+{
   background-color: gray;
   margin: 25px;
   padding: 30px;
@@ -76,7 +79,6 @@ body {
 }
 
 /*Dance Classes*/
-
 .DanceClass1
 {
   background-color: gray; 
@@ -84,6 +86,8 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
@@ -97,6 +101,8 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
@@ -110,6 +116,8 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
@@ -123,6 +131,8 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
@@ -136,6 +146,8 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
@@ -149,6 +161,8 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
@@ -162,6 +176,8 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
@@ -175,6 +191,8 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
@@ -188,14 +206,24 @@ body {
   background-size: cover;
   background-position: center;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   height: 100px;
   width: 100px;
   padding: 30px;
   margin: 10px;
 }
 
+.memberForm 
+{
+  background-color: darkred;
+  width: 400px;
+  padding: 30px;
+  margin: 10px;
+}
 
-.schedule {
+.schedule 
+{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -203,26 +231,30 @@ body {
   width: 700px;
 }
 
-.schedule > p {
+.schedule > p 
+{
   background-color: gray;
   margin: 25px;
   padding: 30px;
   font-size: 15px;
 }
 
-.confirmation {
+.confirmation 
+{
   display: none;
   background-color: gray;
   width: 500px;
 }
 
 /*Booking*/
-.PurchaseInput {
+.PurchaseInput 
+{
   background-color: gray;
   width: 500px;
 }
 
-.PurchaseForm {
+.PurchaseForm 
+{
   display: flex;
   flex-direction: column;
   background-color: darkred;
@@ -230,7 +262,8 @@ body {
   width: 700px;
 }
 
-.Chosen {
+.Chosen 
+{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -238,7 +271,8 @@ body {
   width: 700px;
 }
 
-.Chosen > p {
+.Chosen > p 
+{
   background-color: gray;
   margin: 20px;
   padding: 20px;
@@ -246,7 +280,8 @@ body {
   font-weight: bold;
 }
 
-.popupPurchase {
+.popupPurchase 
+{
   display: none;
   background-color: gray;
   width: 500px;
@@ -350,8 +385,8 @@ body {
   margin: 10px;
 }
 
-
-.year23 {
+.year23 
+{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -359,14 +394,16 @@ body {
   width: 800px;
 }
 
-.year23 > p {
+.year23 > p 
+{
   background-color: gray;
   margin: 25px;
   padding: 30px;
   font-size: 15px;
 }
 
-.year17 {
+.year17 
+{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -374,7 +411,8 @@ body {
   width: 800px;
 }
 
-.year17 > p {
+.year17 > p 
+{
   background-color: gray;
   margin: 25px;
   padding: 30px;
@@ -507,8 +545,8 @@ body {
   margin: 50px;
 }
 
-
-.Instructors {
+.Instructors 
+{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -516,7 +554,8 @@ body {
   width: 800px;
 }
 
-.Instructors > p {
+.Instructors > p 
+{
   background-color: gray;
   margin: 25px;
   padding: 30px;
@@ -525,28 +564,31 @@ body {
 
 .top-row,
 .middle-row,
-.bottom-row {
+.bottom-row 
+{
   justify-content: center;
   flex-direction: row;
   display: flex;
 }
 
-
 /*All HTML*/
-.navbar {
+.navbar 
+{
   display: flex;
   justify-content: center;
   background-color: black;
 }
 
-.navbar > p {
+.navbar > p 
+{
   background-color: darkred;
   margin: 10px;
   padding: 10px;
   font-size: 15px;
 }
 
-.footer {
+.footer 
+{
     position:relative;
     left:0;
     bottom:0;
@@ -557,8 +599,10 @@ body {
 }
 
 /*Mobile View*/
-@media (max-width: 768px) {
-  body{
+@media (max-width: 768px) 
+{
+  body
+  {
     font-size: large;
     background-image: url(Images/Background2.jpg);
     background-repeat: no-repeat;
@@ -567,8 +611,10 @@ body {
     background-size: cover;
     width:auto
   }
+
   /*Homepage*/
-  .content {
+  .content 
+  {
     flex-direction: column;
     width: 80%; 
     align-items: center;
@@ -577,20 +623,24 @@ body {
   .DanceClass,
   .Event,
   .AboutUs,
-  .Moto {
+  .Moto 
+  {
     width: 50%;
   }
   
   /*Dance Classes*/
-  .confirmation {
+  .confirmation 
+  {
     width:80%;
   }
 
-  .schedule {
+  .schedule 
+  {
     flex-direction: column;
     width: 80%; 
     align-items: center;
   }
+
   .DanceClass1,
   .DanceClass2,
   .DanceClass3,
@@ -603,7 +653,8 @@ body {
   {
     background-position: center top;
   }
-  .DanceClass9{
+  .DanceClass9
+  {
     background-size: 80%;
     background-position: center;
   }
@@ -652,7 +703,8 @@ body {
   }
 
   /*OurSpace*/
-  .Instructors {
+  .Instructors 
+  {
     flex-direction: column;
     width: 80%; 
     align-items: center;
@@ -660,7 +712,8 @@ body {
 
   .top-row,
   .middle-row,
-  .bottom-row {
+  .bottom-row 
+  {
     justify-content: center;
     flex-direction: column;
     display: flex;

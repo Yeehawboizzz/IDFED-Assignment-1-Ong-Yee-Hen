@@ -30,18 +30,18 @@
   <input type="date" id="dateInput" name="datetime">
   <button type="button" onclick="updateContent()">Confirm</button>
 
-  <p>CLASSES AVAILABLE TODAY</p>
+  <h2>CLASSES AVAILABLE TODAY</h2>
   <Classes class="schedule">
     <a href="Booking.html?box=box1" style="color:red; text-decoration: none;"><p id="boxContent1" class="DanceClass1">Popping<br>Mr Wiggles<br>8pm-9pm</p></a>
     <a href="Booking.html?box=box2" style="color:red; text-decoration: none;"><p id="boxContent2" class="DanceClass2">Hip Hop<br>Jabbawockeez<br>6pm-7pm</p></a>
     <a href="Booking.html?box=box3" style="color:red; text-decoration: none;"><p id="boxContent3" class="DanceClass3">Locking<br>Hilty & Bosch<br>3pm-4pm</p></a>
   </Classes>
 
-  <form id="memberForm">
+  <form id="memberForm" class="memberForm">
     <h3>Not a member yet?<br>Sign up now to get discounted credits for classes!</h3>
-    <p><label for="emailInput">Email Address:</label><input type="email" id="emailInput" placeholder="Type your email here"></p>
-    <p><label for="passInput">Enter your password:</label><input type="password" id="passInput" placeholder="Mininum 8 char"></p>
-    <p><input type="checkbox">Do you want to be notified of our events?</p>
+    <p><label for="emailInput" style="font-weight: bold;">Email Address:</label><input type="email" id="emailInput" placeholder="Type your email here"></p>
+    <p><label for="passInput" style="font-weight: bold;">Enter your password:</label><input type="password" id="passInput" placeholder="Mininum 8 char"></p>
+    <p><input type="checkbox" style="font-weight: bold;">Do you want to be notified of our events?</p>
     <button type="button" id="submitButton">Sign Up</button>
   </form>
   <div class="confirmation" id="confirmation"></div>
