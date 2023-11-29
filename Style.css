@@ -571,7 +571,8 @@ body
   display: flex;
 }
 
-.instructor-info {
+.instructor-info 
+{
   display: none;
   position: relative;
   background-color: #333;
