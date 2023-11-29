@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <meta charset="UTF-8">
@@ -25,14 +25,14 @@
 
 <form class="PurchaseForm" id="purchaseForm">
     <center>
-    <p class="PurchaseInput"><label for="email">Email Address:</label><input type="email" placeholder="Type your email here" required></p>
-    <p class="PurchaseInput"><label for="name">Enter your name:</label><input type="text" placeholder="Type your name here" required></p>
-    <p class="PurchaseInput"><label for="ccn">Credit Card Number:</label><input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" required></p>
-    <p class="PurchaseInput"><label for="expiry">Expiry Date:</label><input type="date" required></p>
-    <p class="PurchaseInput"><label for="promo">Enter Promo Code (Optional):</label><input type="text" placeholder="Enter your promo code" id="promoInput"></p>
+    <p class="PurchaseInput"><label for="emailInput">Email Address:</label><input type="email" placeholder="Type your email here" id="emailInput" required></p>
+    <p class="PurchaseInput"><label for="nameInput">Enter your name:</label><input type="text" placeholder="Type your name here" id="nameInput" required></p>
+    <p class="PurchaseInput"><label for="ccnInput">Credit Card Number:</label><input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" id="ccnInput" required></p>
+    <p class="PurchaseInput"><label for="expiryInput">Expiry Date:</label><input type="date" id="expiryInput" required></p>
+    <p class="PurchaseInput"><label for="promoInput">Enter Promo Code (Optional):</label><input type="text" placeholder="Enter your promo code" id="promoInput"></p>
     <div><input type="checkbox">Do you want to be notified of our events?</div>
     <div><input type="checkbox">Do you want to receive receipts through your email?</div>
-    <div><button type="submit" id="proceedPurchase">Purchase</div>
+    <div><button type="submit" id="proceedPurchase">Purchase</button></div>
     </center>
 </form>
 <div class="popupPurchase" id="popupPurchase"></div>
