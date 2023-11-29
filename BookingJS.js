@@ -1,10 +1,11 @@
 
+// function to display class duration on Booking.html based on chosen dance class box
 function chooseClass() {
     const urlParams = new URLSearchParams(window.location.search);
     const boxParam = urlParams.get('box');
 
     var content1;
-
+    // define different scenarios based on the selected dance class
     if (boxParam === 'box1') {
         content1 = "Your class is from 8pm-9pm. The class will cost 1 class credit ($15)";
     } else if (boxParam === 'box2') {
@@ -14,7 +15,7 @@ function chooseClass() {
     } else {
         content1 = "You have not chosen a class yet";
     }
-
+    // keep the dance class chosen so that if user refresh, it still shows the chosen class
     localStorage.setItem('boxContent1', content1);
     document.getElementById('boxContent1').innerHTML = content1;
 }
@@ -22,10 +23,11 @@ function chooseClass() {
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('proceedPurchase').addEventListener('click', function (event) {
         event.preventDefault();
-        // Validate the form before proceeding with the purchase
+        // validate the form before proceeding with the purchase
         if (validateForm()) {
+            // get promo code input
             var promoInput = document.getElementById("promoInput").value;
-
+            // define different situations based on the promo code typed in by user
             if (promoInput.trim() === "KONZ1stTIME") {
                 showMessage('Purchase Successful. Promo code redeemed. Class price: $0. Enjoy your free class! An Email receipt will be sent to you soon.', 'success');
             } else if (promoInput.trim() === "") {
@@ -34,13 +36,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 showMessage('Invalid Promo Code. Please Try Again', 'error');
             }
         } else {
-            // Form is not valid, display an error message or take appropriate action
+            // form is not valid, display an error message or take appropriate action
             showMessage('Please fill in all required fields.', 'error');
         }
 
         function validateForm() {
             var form = document.getElementById('purchaseForm');
-            // Check if all required inputs are filled in
+            // check if all required inputs are filled in
             return Array.from(form.elements).every(element => {
                 if (element.tagName === 'INPUT' && element.required) {
                     return element.value.trim() !== '';
@@ -58,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             setTimeout(function () {
                 messageBox.style.display = 'none';
-            }, 500000); // Adjust the timeout as needed
+            }, 500000);
         }
     });
 });
