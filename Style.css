@@ -28,6 +28,16 @@ body
   width: 100px;
   padding: 30px;
   margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  position: relative;
+}
+
+.DanceClass:hover 
+{
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
 .Event
@@ -43,6 +53,16 @@ body
   width: 100px;
   padding: 30px;
   margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  position: relative;
+}
+
+.Event:hover 
+{
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
 .AboutUs
@@ -587,6 +607,16 @@ body
   display: flex;
   justify-content: center;
   background-color: black;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  position: relative;
+}
+
+.Event:hover 
+{
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
 .navbar > p 
@@ -613,6 +643,7 @@ body
 {
   body
   {
+    overflow-x: hidden; /* Disable horizontal scrolling */
     font-size: large;
     background-image: url(Images/Background2.jpg);
     background-repeat: no-repeat;
