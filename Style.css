@@ -613,7 +613,7 @@ body
   position: relative;
 }
 
-.Event:hover 
+.navbar:hover 
 {
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
@@ -625,6 +625,12 @@ body
   margin: 10px;
   padding: 10px;
   font-size: 15px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Add this line */
+}
+
+.navbar>p:hover {
+  background-color: red; /* Add this block */
+  color: rgb(31, 81, 167); /* Add this block */
 }
 
 .footer 
