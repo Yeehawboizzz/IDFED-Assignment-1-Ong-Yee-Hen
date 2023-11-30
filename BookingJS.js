@@ -20,11 +20,25 @@ function chooseClass() {
     document.getElementById('boxContent1').innerHTML = content1;
 }
 
+function validateEmail() {
+    var email = document.getElementById('emailInput').value;
+    // simple pattern for email validation
+    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return emailPattern.test(email);
+}
+
+function validateCreditCard() {
+    var ccn = document.getElementById('ccnInput').value;
+    // pattern for 16-digit credit card number
+    var ccnPattern = /^\d{16}$/;
+    return ccnPattern.test(ccn);
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('proceedPurchase').addEventListener('click', function (event) {
         event.preventDefault();
         // validate the form before proceeding with the purchase
-        if (validateForm()) {
+        if (validateForm() && validateEmail() && validateCreditCard()) {
             // get promo code input
             var promoInput = document.getElementById("promoInput").value;
             // define different situations based on the promo code typed in by user
@@ -37,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         } else {
             // form is not valid, display an error message or take appropriate action
-            showMessage('Please fill in all required fields.', 'error');
+            showMessage('Please fill in all required fields correctly.', 'error');
         }
 
         function validateForm() {

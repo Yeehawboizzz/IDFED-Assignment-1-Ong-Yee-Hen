@@ -58,8 +58,28 @@ Promo Code:
 Integrates the use of promo codes, allowing users to redeem a free class. Discounts the class price from $15 to $0 when a valid promo code from the Membership Signup is applied, providing an incentive for users to engage with the membership program.
 
 # TECHNOLOGIES USED
-
+This website was constructed with the use of HTML, CSS and JavaScript. No library or framework was used in JavaScript.
 
 # TESTING
+There are four main interactable functions in this website. A calendar to choose different dance classes (DanceClasses.html), a membership signup form (DanceClasses.html), a purchase class form (Booking.html), and the instructor information (OurSpace.html). 
+
+1) Calendar:
+Go to the "Dance Class" page through the navigation bar / footer / box in Homepage.
+Input the desired date, a calendar will pop up for convenience when choosing.
+Try date with 1st as the day (Output 1).
+Try date with 15th as the day (Output 2).
+Try date with 30th as the day (Output 3).
+
+2) Membership Form:
+Go to the "Dance Class" page through the navigation bar / footer / box in Homepage.
+Scroll to the bottom.
+Try typing gibberish into either email or password and press sign up(Output: "Invalid format")
+Try typing proper email format and standard password requirement and press sign up(8 characters, one cap, one number, one symbol) (Output: Pop up to indicate promo code has been copied to clipboard, paste to apply.) 
+
+3) Purchase Form:
+Go to the "Dance Class" and pick any dance class.
+The class's time should be displayed on top according to chosen dance class.
+Try typing gibberish in any of the input (Output: )
+
 
 # CREDITS
