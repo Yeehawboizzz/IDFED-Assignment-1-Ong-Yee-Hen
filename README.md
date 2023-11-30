@@ -33,7 +33,7 @@ Regardless of their dance background, users can access information about the stu
 
 
 # FEATURES
-The Javascript features are concentrated in the Dance Classes.html and Booking.html, where all the forms submission works.
+The Javascript features are concentrated in the Dance Classes.html and Booking.html, where all the forms submission works. There is also an interactive function in the OurSpace.html, where user can see the instructors' name and genre.  
 
 **Dance Classes.html**:
 
@@ -57,12 +57,18 @@ Requires users to input necessary information, such as credit card number and em
 Promo Code:
 Integrates the use of promo codes, allowing users to redeem a free class. Discounts the class price from $15 to $0 when a valid promo code from the Membership Signup is applied, providing an incentive for users to engage with the membership program.
 
+**OurSpace.html**
+
+Hover For Information:
+The use of hovering for information saved spaces and display a cleaner interface. Hovering user's mouse over the pictures of the instructors allow them to find out about the instructor's name and genre. For mobile view, users can simply tap on the pictures for the information.
+
 # TECHNOLOGIES USED
 This website was constructed with the use of HTML, CSS and JavaScript. No library or framework was used in JavaScript.
 
 # TESTING
-There are four main interactable functions in this website. A calendar to choose different dance classes (DanceClasses.html), a membership signup form (DanceClasses.html), a purchase class form (Booking.html), and the instructor information (OurSpace.html). 
+There are four main interactable functions in this website. A calendar to choose different dance classes (DanceClasses.html), a membership signup form (DanceClasses.html), a purchase class form (Booking.html), and the instructor information (OurSpace.html). The functions remain the same for both desktop and mobile view.
 
+**Desktop View**
 1) Calendar:
 Go to the "Dance Class" page through the navigation bar / footer / box in Homepage.
 Input the desired date, a calendar will pop up for convenience when choosing.
@@ -79,7 +85,30 @@ Try typing proper email format and standard password requirement and press sign 
 3) Purchase Form:
 Go to the "Dance Class" and pick any dance class.
 The class's time should be displayed on top according to chosen dance class.
-Try typing gibberish in any of the input (Output: )
+Try typing gibberish in any of the input (Output: "Invalid format or empty form")
+Try leaving empty inputs (Output: "Invalid format or empty form")
+Try typing proper email, credit card and date format. (**Without promo code**: $15 deducted)
+Try typing proper email, credit card and date format. (**With promo code**: free dance class)
+Try typing proper email, credit card and date format. (**Invalid promo code**: invalid code)
 
+4) Instructor Information:
+Go to the "Our Space & Instructors" page through the navigation bar / footer / box in Homepage.
+Hover mouse over each instructor's image to see their name and genre. (Touch the image for mobile view)
+
+**Mobile View**
+Homepage:
+The background images will reduce to one image to prevent distortion. The two boxes which were in horizontal arrangement in desktop view, changes to vertical arrangement.
+
+Dance Class:
+The dance classes options changes from horizontal arrangement into vertical arrangement. The membership form becomes narrower to adapt to mobile screen size.
+
+Booking:
+The purchase form stretches vertically to adapt to the mobile screen size, while not affecting the input boxes significantly.
+
+Event:
+The event images changes from horizontal arrangement into vertical arrangement.
+
+Our Space & Instructors:
+The instructor images changes from grid arrangement into vertical arrangement.
 
 # CREDITS
