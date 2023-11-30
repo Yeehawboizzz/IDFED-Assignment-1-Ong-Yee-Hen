@@ -639,6 +639,11 @@ body
   }
   
   /*Dance Classes*/
+  .memberForm
+  {
+    width:80%;
+  }
+  
   .confirmation 
   {
     width:80%;
