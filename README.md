@@ -112,3 +112,15 @@ Our Space & Instructors:
 The instructor images changes from grid arrangement into vertical arrangement.
 
 # CREDITS
+All text content are fictional and not copied from any websites/sources. 
+The images are real and taken from multiple online sources.
+
+Image Reference:
+
+Background1
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theguardian.com%2Ftravel%2F2017%2Foct%2F04%2Fnew-york-subway-breakdancing-street-parks-performers-free&psig=AOvVaw0FGk5jdnj0TaPb9e39Z1XC&ust=1701424294453000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiKvOe664IDFQAAAAAdAAAAABAE
+
+Background2
+
+
+
