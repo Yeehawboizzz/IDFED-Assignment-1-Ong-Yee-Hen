@@ -10,14 +10,12 @@ At Konfluenze, we believe in the power of diversity and the fusion of experience
 
 Whether you are looking to learn, improve, or simply have fun, Konfluenze invites you to join our community. Together, we strive to cultivate and support the vibrant street dance culture in Singapore.
 
-
 # DESIGN PROCESS
 The primary objective of our website is to extend dance classes to all. Our mission is to broaden the exposure of street dance culture and actively contribute to its flourishing community. At Konfluenze, we welcome individuals of all ages who are keen on exploring the world of dance, creating an inclusive space for anyone with a passion for movement.
 
 Recognizing the lack of recognition for street dance within Singapore, our website has been strategically designed to bridge this gap. We have incorporated various dance-related elements, including captivating images from past events. These visual representations serve as a testament to our commitment, showcasing the energy, skill, and vibrancy that define the street dance culture. By providing a glimpse into our dynamic and engaging activities, we aim to instill trust, faith, and ultimately gain the recognition of the wider community.
 
 Through these efforts, we aspire to not only impart dance skills but also foster a sense of community and appreciation for street dance. Konfluenze stands as a welcoming hub where individuals of diverse backgrounds can come together, learn, and contribute to the ever-evolving tapestry of street dance in Singapore. Join us on this exciting journey of discovery, expression, and collective growth.
-
 
 Non-dancers:
 
@@ -30,7 +28,6 @@ A simplified purchase process allows seasoned dancers, who are clear about their
 All Users:
 
 Regardless of their dance background, users can access information about the studio's history, past events, and the expertise of our instructors. Contact details are easily accessible, encouraging communication and fostering a sense of connection between the studio and its community. By offering a glimpse into our past events, the website aims to showcase the vibrancy and energy that defines Konfluenze Dance Studio, creating a welcoming space for all users. Through these tailored features, the website aims to cater to the diverse needs of both novice and experienced dancers, fostering inclusivity and providing a positive online experience for all users.
-
 
 # FEATURES
 The Javascript features are concentrated in the Dance Classes.html and Booking.html, where all the forms submission works. There is also an interactive function in the OurSpace.html, where user can see the instructors' name and genre.  
@@ -96,19 +93,19 @@ Go to the "Our Space & Instructors" page through the navigation bar / footer / b
 Hover mouse over each instructor's image to see their name and genre. (Touch the image for mobile view)
 
 **Mobile View**
-Homepage:
+1) Homepage:
 The background images will reduce to one image to prevent distortion. The two boxes which were in horizontal arrangement in desktop view, changes to vertical arrangement.
 
-Dance Class:
+2) Dance Class:
 The dance classes options changes from horizontal arrangement into vertical arrangement. The membership form becomes narrower to adapt to mobile screen size.
 
-Booking:
+3) Booking:
 The purchase form stretches vertically to adapt to the mobile screen size, while not affecting the input boxes significantly.
 
-Event:
+4) Event:
 The event images changes from horizontal arrangement into vertical arrangement.
 
-Our Space & Instructors:
+5) Our Space & Instructors:
 The instructor images changes from grid arrangement into vertical arrangement.
 
 # CREDITS
