@@ -21,16 +21,16 @@ function chooseClass() {
 }
 
 function validateEmail() {
-    var email = document.getElementById('emailInput').value;
+    const email = document.getElementById('emailInput').value;
     // simple pattern for email validation
-    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailPattern.test(email);
 }
 
 function validateCreditCard() {
-    var ccn = document.getElementById('ccnInput').value;
+    const ccn = document.getElementById('ccnInput').value;
     // pattern for 16-digit credit card number
-    var ccnPattern = /^\d{16}$/;
+    const ccnPattern = /^\d{16}$/;
     return ccnPattern.test(ccn);
 }
 
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // validate the form before proceeding with the purchase
         if (validateForm() && validateEmail() && validateCreditCard()) {
             // get promo code input
-            var promoInput = document.getElementById("promoInput").value;
+            const promoInput = document.getElementById("promoInput").value;
             // define different situations based on the promo code typed in by user
             if (promoInput.trim() === "KONZ1stTIME") {
                 showMessage('Purchase Successful. Promo code redeemed. Class price: $0. Enjoy your free class! An Email receipt will be sent to you soon.', 'success');
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         function validateForm() {
-            var form = document.getElementById('purchaseForm');
+            const form = document.getElementById('purchaseForm');
             // check if all required inputs are filled in
             return Array.from(form.elements).every(element => {
                 if (element.tagName === 'INPUT' && element.required) {
@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         function showMessage(message, messageType) {
-            var messageBoxes = document.getElementsByClassName('popupPurchase');
-            var messageBox = messageBoxes[0];
+            const messageBoxes = document.getElementsByClassName('popupPurchase');
+            const messageBox = messageBoxes[0];
             messageBox.textContent = message;
             messageBox.className = 'popupPurchase ' + messageType;
             messageBox.style.display = 'block';

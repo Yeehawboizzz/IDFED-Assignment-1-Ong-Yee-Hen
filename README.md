@@ -115,12 +115,65 @@ The instructor images changes from grid arrangement into vertical arrangement.
 All text content are fictional and not copied from any websites/sources. 
 The images are real and taken from multiple online sources.
 
-Image Reference:
+**Image Reference**
 
 Background1
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.theguardian.com%2Ftravel%2F2017%2Foct%2F04%2Fnew-york-subway-breakdancing-street-parks-performers-free&psig=AOvVaw0FGk5jdnj0TaPb9e39Z1XC&ust=1701424294453000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLiKvOe664IDFQAAAAAdAAAAABAE
 
 Background2
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.estiloblack.com.br%2F2014%2F11%2Fos-5-estilos-de-street-dance.html&psig=AOvVaw1fDZo8skH3F98vDkYzD8Ss&ust=1701504806608000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjX6t7m7YIDFQAAAAAdAAAAABAJ
+
+DanceClassOption
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.helsinkitimes.fi%2Fculture%2F24064-red-bull-dance-your-style-street-dance-competition-arrives-in-finland-for-the-first-time.html&psig=AOvVaw20Jv4IeEqLkvRL3uxJcYSI&ust=1701504711684000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjnxbHm7YIDFQAAAAAdAAAAABAE
+
+EventOption & Event2017-03
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fdance.fandom.com%2Fwiki%2FHip-hop&psig=AOvVaw1fDZo8skH3F98vDkYzD8Ss&ust=1701504806608000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjX6t7m7YIDFQAAAAAdAAAAABAR
+
+Event2017-01
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.themusicman.uk%2Fhilty-and-bosch%2F&psig=AOvVaw0RNM7JErHWUpGYc_z_P1iK&ust=1701504973143000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOihia7n7YIDFQAAAAAdAAAAABAE
+
+Event2017-02
+https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fbrotherhood&psig=AOvVaw0F0PF_dJC9VK0O6A5LKHzR&ust=1701505017178000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjVjMPn7YIDFQAAAAAdAAAAABAE
+
+Event2023-01
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fcampstogo.com%2Furban-dance-camp&psig=AOvVaw0Mywq_Myl3veZh5UNXtrYu&ust=1701505058085000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPjWwNbn7YIDFQAAAAAdAAAAABAE
+
+Event2023-02
+https://www.youtube.com/watch?v=UZA9O3b36pA
+
+Event2023-03
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbull.com%2Fgb-en%2F6-popping-dance-videos-that-went-viral&psig=AOvVaw2kBfxrQUlG6n6lGQ6AzhM3&ust=1701505731291000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCODExJfq7YIDFQAAAAAdAAAAABAE
+
+Instructor1 & DanceClass1
+https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FMRWIGGLESEB&psig=AOvVaw0UmP0WDWgd1YrXJGbjoOVy&ust=1701505783174000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjUoLDq7YIDFQAAAAAdAAAAABAE
+
+Instructor2 & DanceClass2
+https://www.google.com/url?sa=i&url=https%3A%2F%2Flasvegasmagazine.com%2Fentertainment%2F2019%2Fjan%2F25%2Fjabbawockeez-mgm-grand-dance-theater%2F&psig=AOvVaw17WUZlXjPNuBB9l5W0qCPE&ust=1701505857420000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCb6dPq7YIDFQAAAAAdAAAAABAL
+
+Instructor3 & DanceClass3
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCbNObaRz-jgDmgwg_DY8xrQ&psig=AOvVaw0CUnNgyOfyj9d6TN67gL4y&ust=1701505881944000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLD2sd_q7YIDFQAAAAAdAAAAABAE
+
+Instructor4 & DanceClass4
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fkinjaz.fandom.com%2Fwiki%2FAnthony_Lee&psig=AOvVaw3JnnFzsZaCVfM0rkbn5PQq&ust=1701505906823000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCID0k-vq7YIDFQAAAAAdAAAAABAE
+
+Instructor5 & DanceClass5
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.imdb.com%2Fname%2Fnm5631571%2F&psig=AOvVaw1y7t-K-qL7B5dX2Dds7Ocu&ust=1701505927798000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOiDnfXq7YIDFQAAAAAdAAAAABAE
+
+Instructor6 & DanceClass6
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbull.com%2Fhr-hr%2Fvideos%2Fgreenteck&psig=AOvVaw0wvfCby-S8Sn7kAFe6O2hx&ust=1701505942865000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNiotfzq7YIDFQAAAAAdAAAAABAR
+
+Instructor7 & DanceClass7
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2F%40H0ZIN&psig=AOvVaw1CLFL8FfAjbO15jBtVNya2&ust=1701505977205000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKj37Yzr7YIDFQAAAAAdAAAAABAE
+
+Instructor8 & DanceClass8
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.prodance.co.uk%2Fartists%2Finfo%2FSALAH&psig=AOvVaw0pDSXZqBztlIF0FeyBgNud&ust=1701506021526000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKC5iaLr7YIDFQAAAAAdAAAAABAE
+
+Instructor9 & DanceClass9
+https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2FKeoneMadrid&psig=AOvVaw3UFJDvp7QxxMek8-Fj_pL_&ust=1701506037194000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOC6sqnr7YIDFQAAAAAdAAAAABAE
+
+**Acknowledgement**
+I used Chatgpt for explanations on the use of advance JS functions, and checking the structure of the code.
+This website was inspired by Recognize Studio of Singapore. Website: https://recognizestudios.com/
 
 
 
