@@ -4,15 +4,15 @@ var selectedDate;
 
 function updateContent() {
     // get the date input
-    const dateInput = document.getElementById('dateInput').value;
+    var dateInput = document.getElementById('dateInput').value;
 
     // set default content and class
-    const content1 = "Dance Class";
-    const content2 = "Dance Class";
-    const content3 = "Dance Class";
-    const class1 = 'DanceClass1';
-    const class2 = 'DanceClass2';
-    const class3 = 'DanceClass3';
+    var content1 = "Dance Class";
+    var content2 = "Dance Class";
+    var content3 = "Dance Class";
+    var class1 = 'DanceClass1';
+    var class2 = 'DanceClass2';
+    var class3 = 'DanceClass3';
 
     // parse the selected date
     selectedDate = new Date(dateInput);
@@ -59,12 +59,12 @@ var messageType;
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('submitButton').addEventListener('click', function () {
         // get email and password input
-        const emailInput = document.getElementById('emailInput').value;
-        const passwordInput = document.getElementById('passInput').value;
+        var emailInput = document.getElementById('emailInput').value;
+        var passwordInput = document.getElementById('passInput').value;
             
         // validate email and password format using a regular expression
-        const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
+        var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$/;
         
         // define different scenarios based on correct and wrong inputs
         if (emailRegex.test(emailInput) && passwordRegex.test(passwordInput)) {
@@ -79,8 +79,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // function to define the display of content of the message
     function showMessage(message, messageType) {
-        const messageBoxes = document.getElementsByClassName('confirmation');
-        const messageBox = messageBoxes[0];
+        var messageBoxes = document.getElementsByClassName('confirmation');
+        var messageBox = messageBoxes[0];
         messageBox.textContent = message;
         messageBox.className = 'confirmation ' + messageType;
         messageBox.style.display = 'block';
@@ -93,9 +93,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // function to copy promo code to clipboard
 function copyToClipboard() {
-    const copyText = "KONZ1stTIME";
+    var copyText = "KONZ1stTIME";
 
-    const tempInput = document.createElement("input");
+    var tempInput = document.createElement("input");
 
     tempInput.value = copyText;
 
