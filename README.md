@@ -1,7 +1,7 @@
 # IDFED-Assignment-1-Ong-Yee-Hen
 My project is to create a website for a fictional dance studio named Konfluenze Dance Studio.
 
-KONFLUENZE DANCE STUDIO
+**KONFLUENZE DANCE STUDIO**
 Established in 2005, Konfluenze Dance Studio originated from a close-knit group of friends who shared a profound passion for street dance and its vibrant culture. We recognized the dearth of a robust street dance scene in Singapore during those early years. Undeterred, we seized every opportunity that came our way and, through battles, competitions, and showcases, evolved into a stronger and more expansive community.
 
 The Konfluenze website serves as a dynamic platform, offering opportunities for both dancers and non-dancers alike. It is a safe space where individuals can pursue their dreams or simply revel in the joy of dance. We take pride in providing a diverse range of dance classes encompassing various genres. Each instructor is recognized for their expertise in a specific genre, ensuring a rich and authentic learning experience.
@@ -17,22 +17,22 @@ Recognizing the lack of recognition for street dance within Singapore, our websi
 
 Through these efforts, we aspire to not only impart dance skills but also foster a sense of community and appreciation for street dance. Konfluenze stands as a welcoming hub where individuals of diverse backgrounds can come together, learn, and contribute to the ever-evolving tapestry of street dance in Singapore. Join us on this exciting journey of discovery, expression, and collective growth.
 
-Non-dancers:
+**Non-dancers:**
 
 The website is intentionally crafted with straightforward language to ensure easy navigation for users without prior dance experience. All essential features are prominently displayed on the main navigation bar, streamlining the user experience and minimizing complexity. Users can effortlessly explore different sections of the website to understand its offerings without feeling overwhelmed.
 
-Seasoned Dancers:
+**Seasoned Dancers:**
 
 A simplified purchase process allows seasoned dancers, who are clear about their goals, to efficiently book classes directly on the website. The booking system is user-friendly, eliminating the need for users to download additional apps or navigate through complex steps. The focus is on providing a seamless and efficient experience for dancers who are familiar with the booking process and are ready to engage with our classes.
 
-All Users:
+**All Users:**
 
 Regardless of their dance background, users can access information about the studio's history, past events, and the expertise of our instructors. Contact details are easily accessible, encouraging communication and fostering a sense of connection between the studio and its community. By offering a glimpse into our past events, the website aims to showcase the vibrancy and energy that defines Konfluenze Dance Studio, creating a welcoming space for all users. Through these tailored features, the website aims to cater to the diverse needs of both novice and experienced dancers, fostering inclusivity and providing a positive online experience for all users.
 
 # FEATURES
 The Javascript features are concentrated in the Dance Classes.html and Booking.html, where all the forms submission works. There is also an interactive function in the OurSpace.html, where user can see the instructors' name and genre.  
 
-**Dance Classes.html**:
+**Dance Classes.html:**
 
 Calendar:
 Allows users to select specific dates they wish to book classes. Dynamically updates the available classes based on the chosen date, providing a personalized and responsive experience.
@@ -43,7 +43,7 @@ Enables users to pick a class, initiating a smooth transition to the Booking.htm
 Membership Signup:
 Provides users with the option to sign up as a member directly from the Dance Classes page. Validates user input in the signup form and generates a promo code for first-timers. Offers a streamlined process for users to become members while incentivizing their initial engagement with a promotional offer.
 
-**Booking.html**:
+**Booking.html:**
 
 Display Chosen Class:
 Clearly displays the details of the dance class chosen by the user at the top of the Booking.html page, ensuring transparency and confirmation.
@@ -54,7 +54,7 @@ Requires users to input necessary information, such as credit card number and em
 Promo Code:
 Integrates the use of promo codes, allowing users to redeem a free class. Discounts the class price from $15 to $0 when a valid promo code from the Membership Signup is applied, providing an incentive for users to engage with the membership program.
 
-**OurSpace.html**
+**OurSpace.html:**
 
 Hover For Information:
 The use of hovering for information saved spaces and display a cleaner interface. Hovering user's mouse over the pictures of the instructors allow them to find out about the instructor's name and genre. For mobile view, users can simply tap on the pictures for the information.

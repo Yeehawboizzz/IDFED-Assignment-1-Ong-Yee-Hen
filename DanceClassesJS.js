@@ -94,11 +94,9 @@ document.addEventListener('DOMContentLoaded', function () {
 // function to copy promo code to clipboard
 function copyToClipboard() {
     var copyText = "KONZ1stTIME";
-
     var tempInput = document.createElement("input");
 
     tempInput.value = copyText;
-
     document.body.appendChild(tempInput);
 
     tempInput.select();
@@ -106,7 +104,6 @@ function copyToClipboard() {
 
     // command to copy to clipboard
     document.execCommand("copy");
-
     document.body.removeChild(tempInput);
 
     // pop up to alert users that the promo code has been copied to clipboard

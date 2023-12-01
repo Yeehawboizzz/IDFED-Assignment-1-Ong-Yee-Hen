@@ -64,7 +64,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 return true;
             });
         }
-
+        
+        // function to show message
         function showMessage(message, messageType) {
             var messageBoxes = document.getElementsByClassName('popupPurchase');
             var messageBox = messageBoxes[0];
