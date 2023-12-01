@@ -1,5 +1,5 @@
 # IDFED-Assignment-1-Ong-Yee-Hen
-My project is to create a website for aa fictional dance studio named Konfluenze Dance Studio.
+My project is to create a website for a fictional dance studio named Konfluenze Dance Studio.
 
 KONFLUENZE DANCE STUDIO
 Established in 2005, Konfluenze Dance Studio originated from a close-knit group of friends who shared a profound passion for street dance and its vibrant culture. We recognized the dearth of a robust street dance scene in Singapore during those early years. Undeterred, we seized every opportunity that came our way and, through battles, competitions, and showcases, evolved into a stronger and more expansive community.
